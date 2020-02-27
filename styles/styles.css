@@ -1,9 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
+/* GENERAL */
+
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
 }
+
+/* HEADER PAGE */
 
 header div {
   display: flex;
@@ -26,9 +30,12 @@ header div a.bold-link {
   font-weight: 700;
 }
 
+/* FOOTER PAGE */
+
 footer div {
   height: 62px;
   background: #eeeeee;
+  margin-top: 50px;
 }
 
 footer div p {
@@ -36,4 +43,26 @@ footer div p {
   color: #999999;
   padding: 23px 0 23px 0;
   text-align: center;
+}
+
+/* ABOUT PAGE */
+
+section {
+  margin-left: 230px;
+  margin-right: 230px;
+}
+
+section p {
+  font-size: 18px;
+  color: #444444;
+  line-height: 28px;
+}
+
+section h2 {
+  font-size: 20px;
+  color: #111111;
+}
+
+.about-other-sections {
+  margin-top: 30px;
 }
