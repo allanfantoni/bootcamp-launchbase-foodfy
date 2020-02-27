@@ -4,7 +4,7 @@ function includeHTML() {
   z = document.getElementsByTagName("*");
   for (i = 0; i < z.length; i++) {
     elmnt = z[i];
-    /*search for elements with a certain atrribute:*/
+    /* Search for elements with a certain atrribute: */
     file = elmnt.getAttribute("w3-include-html");
     if (file) {
       /* Make an HTTP request using the attribute value as the file name: */
@@ -36,15 +36,11 @@ function setBoldLink() {
   const aboutLink = document.querySelector('#about-link');
   const recipesLink = document.querySelector('#recipes-link');
   
-  if (!aboutLink || !recipesLink) {
+  if (!aboutLink || !recipesLink)
     return;
-  }
 
-  if (urlCurrentPage === aboutLink.href) {
-    aboutLink.classList.remove('other-links');
+  if (urlCurrentPage === aboutLink.href)
     aboutLink.classList.add('bold-link');
-  } else if (urlCurrentPage === recipesLink.href) {
-    recipesLink.classList.remove('other-links');
+  else if (urlCurrentPage === recipesLink.href)
     recipesLink.classList.add('bold-link');
-  }
 }

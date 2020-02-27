@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
 header div {
   display: flex;
 }
@@ -11,7 +16,6 @@ header div img {
 }
 
 header div a.other-links {
-  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   color: #111111;
   margin: 38px 30px 36px 0;
@@ -19,10 +23,17 @@ header div a.other-links {
 }
 
 header div a.bold-link {
-  font-family: 'Roboto', sans-serif;
-  font-size: 16px;
-  color: #111111;
-  margin: 38px 30px 36px 0;
-  text-decoration: none;
   font-weight: 700;
+}
+
+footer div {
+  height: 62px;
+  background: #eeeeee;
+}
+
+footer div p {
+  font-size: 14px;
+  color: #999999;
+  padding: 23px 0 23px 0;
+  text-align: center;
 }
