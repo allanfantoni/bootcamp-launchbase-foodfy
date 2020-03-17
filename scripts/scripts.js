@@ -33,8 +33,8 @@ function includeHTML() {
 
 function setBoldLink() {
   const urlCurrentPage = window.location.href;
-  const aboutLink = document.querySelector('#about-link');
-  const recipesLink = document.querySelector('#recipes-link');
+  const aboutLink = document.querySelector('#aboutLink');
+  const recipesLink = document.querySelector('#recipesLink');
   
   if (!aboutLink || !recipesLink)
     return;
