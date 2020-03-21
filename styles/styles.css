@@ -130,6 +130,7 @@ footer p {
   line-height:  34px;
   color: #111111;
   margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .content-about h2 {
@@ -148,6 +149,10 @@ footer p {
 
 /* CARDS */
 
+#most-accessed-title {
+  margin-top: 50px;
+}
+
 .cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -158,11 +163,15 @@ footer p {
   margin-top: 20px;
 }
 
-.card__image-container img {
+.card-image-container img {
   border-radius: 15px;
   overflow: hidden;
   width: 100%;
   height: 100%;
+}
+
+.card-title {
+  margin-top: 20px;
 }
 
 .title {
@@ -175,10 +184,10 @@ footer p {
   font-size: 14px;
   color: #777777;
   margin-top: 5px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
-.last-card__description {
+.last-card-description {
   font-size: 14px;
   color: #777777;
   margin-top: 5px;

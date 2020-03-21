@@ -6,10 +6,20 @@
   <link href="styles/styles.css" rel="stylesheet">
 </head>
 
-</html>
-
 <body>
-  <div w3-include-html="header.html"></div>
+  <header>
+    <div class="container">
+      <div class="menu">
+        <div class="brand">
+          <a href="index.html"><img src="layouts/assets/logo.png" alt="foodfy" /></a>
+        </div>
+        <div class="links">
+          <a id="aboutLink" href="about.html">Sobre</a>
+          <a id="recipesLink" href="recipes.html">Receitas</a>
+        </div>
+      </div>
+    </div>
+  </header>
 
   <div class="container">
     <div class="content-about">
@@ -68,12 +78,14 @@
     </div>
   </div>
 
-  <div w3-include-html="footer.html"></div>
+  <footer>
+    <p>Todos direitos reservados, receitas Foodfy.</p>
+  </footer>
 
   <script src="scripts/scripts.js"></script>
 
-  <script>
-    includeHTML();
-  </script>
+  <script>setBoldLink();</script>
 
 </body>
+
+</html>
