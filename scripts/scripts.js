@@ -17,7 +17,8 @@ const modal = document.querySelector('.modal');
 const cards = document.querySelectorAll('.card');
 
 for (let card of cards) {
-  card.addEventListener('click', function() {
+  const image = card.getElementsByTagName('img')[0];
+  image.addEventListener('click', function() {
     const image = card.getElementsByTagName('img')[0].alt;
     const title = card.getElementsByTagName('h3')[0].textContent;
     const info = card.getElementsByTagName('p')[0].textContent;
